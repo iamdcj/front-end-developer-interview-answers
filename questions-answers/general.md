@@ -1,7 +1,7 @@
 ## General
 
 #### What actions have you personally taken on recent projects to increase maintainability of your code?
-Despite being the only Front-end engineer on the most recent project I've been a part of, I decided to introduce [Prettier](https://prettier.io/) to the build; the project will likely change-hands at some point, and implementing formatting rules which aren't catered entirely to my tastes should make for a more team-friendly codebase.
+Despite being the only Front-end engineer on the , I decided to introduce [Prettier](https://prettier.io/) to the build; the project will likely change-hands at some point, and implementing formatting rules which aren't catered entirely to my tastes should make for a more team-friendly codebase.
 
 I also strive to provide useful comments, meaningful identifiers and sensible abstraction when building components on each build I am a part of.
 
