@@ -1,8 +1,17 @@
-# Answers to key Front-End Development questions
+## Performance
 
-## What?
-My attempt at answering common HTML, CSS, JavaScript, Performance questions. The bulk of the questions come from the [h5bp Front-end Job Interview Questions repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions) and [Scott O'Hara's Accessibility Interview Questions page](https://scottaohara.github.io/accessibility_interview_questions/), the rest I've added myself from various sources.
-
-## Why?
-Despite having 6+ years experience building websites, I could only answer a small percentage of these questions confidently; I want to address that by making a daily effort to answer at least one of the questions across the various sections.
-
+#### How would you optimize a website's assets/resources?
+---
+#### When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?
+---
+#### Explain the Critical Rendering Path.
+---
+#### Can you describe the difference between progressive enhancement and graceful degradation?
+---
+#### Name 3 ways to decrease page load (perceived or actual load time).
+---
+#### What tools would you use to find a performance bug in your code?
+---
+#### What are some ways you may improve your website's scrolling performance?
+---
+#### Explain the difference between layout, painting and compositing.
