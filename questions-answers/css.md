@@ -3,6 +3,20 @@
 #### What is CSS selector specificity and how does it work?
 ---
 #### What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+Each browser applies a default set of styles(user-agent), however these styles are not always consistent across the different platforms. Normalize and Reset stylesheets both provide platform consistency, but they achieve it using two distinct approaches.
+
+##### Normalizing
+A normalize stylesheet ensures that elements render consistently across platforms by applying sensible defaults to the elements which require 'normalising'. 
+
+It does not remove user-agent styles, but instead works the default styles to ensure a consistent, standards-friendly baseline.
+
+
+##### Resetting
+A reset stylesheet provides element rendering consistency across platforms styles by wiping-out the default user-agents styles, essentially resetting them to zero.
+
+
+Over the years I've tried both, but when setting-up my styles from scratch I usually opt for the 'normalized' approach, with a few of my own edits and additions.
+
 ---
 #### Describe Floats and how they work.
 ---
