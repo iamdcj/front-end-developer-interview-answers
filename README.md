@@ -12,10 +12,10 @@ Despite having 6+ years experience building websites, I could only answer a smal
 ## Questions and Answers
 The following links will take you to the question-answer files for each respective category;
 
-[General](questions-answers/general.md)
-[HTML](questions-answers/html.md)
-[CSS](questions-answers/css.md)
-[JS](questions-answers/javascripts.md)
-[Accessibility](questions-answers/javascripts.md)
-[Performance](questions-answers/performance.md)
-[Network](questions-answers/network.md)
+- [General](questions-answers/general.md)
+- [HTML](questions-answers/html.md)
+- [CSS](questions-answers/css.md)
+- [JS](questions-answers/javascripts.md)
+- [Accessibility](questions-answers/javascripts.md)
+- [Performance](questions-answers/performance.md)
+- [Network](questions-answers/network.md)
