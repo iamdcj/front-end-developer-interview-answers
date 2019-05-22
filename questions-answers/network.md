@@ -1,4 +1,4 @@
-## Networking
+## Network
 
 #### How many resources will a browser download from a given domain at a time?
   ##### What are the exceptions?
