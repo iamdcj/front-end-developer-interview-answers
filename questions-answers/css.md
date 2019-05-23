@@ -12,7 +12,7 @@ It does not remove user-agent styles, but instead works the default styles to en
 
 
 ##### Resetting
-A reset stylesheet provides element rendering consistency across platforms styles by wiping-out the default user-agents styles, essentially resetting them to zero.
+A reset stylesheet provides element rendering consistency across platforms by wiping-out the default user-agents styles, essentially resetting them to zero.
 
 
 Over the years I've tried both, but when setting-up my styles from scratch I usually opt for the 'normalized' approach, with a few of my own edits and additions.

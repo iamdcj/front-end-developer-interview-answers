@@ -3,15 +3,13 @@
 #### Explain event delegation.
 ---
 #### Explain how `this` works in JavaScript.
----
   ##### Can you give an example of one of the ways that working with `this` has changed in ES6?
-  ---
+---
 #### Explain how prototypal inheritance works.
 ---
 #### What's the difference between a variable that is: `null`, `undefined` or undeclared?
----
   ##### How would you go about checking for any of these states?
-  ---
+---
 #### What is a closure, and how/why would you use one?
 ---
 #### What language constructions do you use for iterating over object properties and array items?
