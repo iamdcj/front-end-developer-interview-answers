@@ -3,12 +3,14 @@
 #### What actions have you personally taken on recent projects to increase maintainability of your code?
 Despite being the only Front-end engineer on the my latest project, I decided to introduce [Prettier](https://prettier.io/) to the build; the project will likely change-hands at some point, and implementing formatting rules which aren't catered entirely to my tastes should make for a more team-friendly codebase.
 
-I also strive to provide useful comments, meaningful identifiers, and sensible component abstraction  on each of builds I am a part of.
+I also strive to provide useful comments, meaningful identifiers, and sensible component abstraction on each build I am a part of.
 
 ---
 #### Can you describe your workflow when you create a web page?
+
 ---
 #### If you have 5 different stylesheets, how would you best integrate them into the site?
+I would likely concatenate all individual stylesheets into one CSS file using a build task.
 ---
 #### Explain the importance of standards and standards bodies.
 ---
