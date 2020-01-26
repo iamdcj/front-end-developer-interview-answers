@@ -21,3 +21,6 @@
 #### Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 ---
 #### Have you used different HTML templating languages before?
+I have used Handlebars on a number of large projects. I've also used Jekyll to put together side-projects, as well as my own website.
+
+The last build I was part of that wasn't built entirely in React utilised `.jsx` for templating purposes - this allowed templates to be seamlessly integrated into the solution, without any modifications from backend developers.
