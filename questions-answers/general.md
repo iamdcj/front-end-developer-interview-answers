@@ -31,3 +31,5 @@ If working with `http2` I would look at alternate ways to serve the stylesheets;
 ### What is Flash of Unstyled Content? How do you avoid FOUC?
 ---
 ### Explain some of the pros and cons for CSS animations versus JavaScript animations.
+---
+### Can you describe the difference between progressive enhancement and graceful degradation?
