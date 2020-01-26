@@ -33,3 +33,5 @@ If working with `http2` I would look at alternate ways to serve the stylesheets;
 ### Explain some of the pros and cons for CSS animations versus JavaScript animations.
 ---
 ### Can you describe the difference between progressive enhancement and graceful degradation?
+---
+### Explain the difference between cookies, session storage, and local storage?
