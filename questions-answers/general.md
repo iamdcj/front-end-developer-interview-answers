@@ -6,7 +6,9 @@ Despite being the only Front-end engineer on the my latest project, I decided to
 I also strive to provide useful comments, meaningful identifiers, and sensible component abstraction on each build I am a part of.
 
 ### Can you describe your workflow when you create a web page?
-It depends on the build stage; if I had developed all the required UI elements for the composition then I would simply ask for the content to be provided, either from and API or a static source. If it was the very start of the build I would spend my time developing all the UI elements depicted in the design workfiles.
+It depends on the build stage; if I had developed all the required UI elements for the composition then I would simply ask for the content to be provided, either from an API or a static source. 
+
+If it was the very start of the build I would spend my time developing all the UI elements depicted in the design workfiles.
 
 ---
 ### If you have 5 different stylesheets, how would you best integrate them into the site?
