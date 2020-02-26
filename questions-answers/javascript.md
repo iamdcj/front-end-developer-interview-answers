@@ -1,5 +1,8 @@
 ## JavaScript (ECMAScript)
 
+#### Explain a Promise
+---
+
 #### Explain event delegation.
 ---
 #### Explain how `this` works in JavaScript.
