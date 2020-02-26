@@ -2,6 +2,9 @@
 
 #### Explain a Promise
 ---
+A Promise allows a developer to run some asynchronous operation in the background, and handle the result of the operation when it resolves at some point in the future.
+
+Technically a Promise is an object which represents the resolution of some asynchronous operation, the result can either be successful or a failure.
 
 #### Explain event delegation.
 ---
