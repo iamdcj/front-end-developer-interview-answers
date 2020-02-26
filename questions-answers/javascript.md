@@ -9,7 +9,11 @@ Technically a Promise is an object which represents the resolution of some async
 #### Explain event delegation.
 ---
 #### Explain how `this` works in JavaScript.
+The `this` keyword points an object, which determines the calling context for functions within an application.  The calling context being the object which calls a function.
+
   ##### Can you give an example of one of the ways that working with `this` has changed in ES6?
+  ES6 provided arrow functions, which provided a more expected mechanism of handling the calling context, i.e. the context of   an anonymous(arrow) function is bound to the parent context, not bound to the global object. It doesn't always suit when      working with DOM events, e.g. if you use an arrow function as the callback for a `click` event listener, then it won't bind to   the element object, but refer to the wrapping context.
+  
 ---
 #### Explain how prototypal inheritance works.
 ---
