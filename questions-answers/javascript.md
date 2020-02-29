@@ -20,21 +20,25 @@ The `this` keyword points an object, which determines the calling context for fu
 #### Explain how prototypal inheritance works.
 Objects in JS can inherit methods and properties from other objects via the built-in `prototype` property, which is present on every object in a program.
 
-This is how inheritance works in the JS language, hence prototypal inheritance;
+This is how prototypal inheritance works in the JS language;
 
 ```
+// Create constructor
 function Player(name, age, position) {
   this.name = name
   this.position = position
   this.age = age
 }
 
+// Create instance using constructor
 const Xavi = new Player('Xavi', 'CM', 39)
 
+// Add method to constructor function prototype
 Player.prototype.bio = function() {
   console.info(`${this.name} is a ${this.age} year old ${this.position}`);
 }
 
+// access method via prototype
 Xavi.bio(); 
 // Xavi is a 39 year old CM
 ```
@@ -106,14 +110,30 @@ Xavi.bio();
 #### What is the definition of a higher-order function?
 ---
 #### Can you give an example for destructuring an object or an array?
+```
+const user = {
+  name: "David",
+  age: 32
+}
+
+const { name, age } = user;
+```
+
 ---
 #### Can you give an example of generating a string with ES6 Template Literals?
+```
+const name = "David";
+
+const greeting = `My name is ${name}`
+```
 ---
 #### Can you give an example of a curry function and why this syntax offers an advantage?
 ---
 #### What are the benefits of using `spread syntax` and how is it different from `rest syntax`?
 ---
 #### How can you share code between files?
+JavaScript now has native support for modules - modules allow you to export bindings from a file, and import them to other modules in the application.
+
 ---
 #### Why you might want to create static class members?
 
