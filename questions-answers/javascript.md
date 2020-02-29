@@ -45,7 +45,13 @@ Xavi.bio();
 
 ---
 #### What's the difference between a variable that is: `null`, `undefined` or undeclared?
+- A variable with a value of `null` is a variable thathas been initialized with a value of `null`.
+- An `undefined` variable is a variable that has been declared, but not initialized with a value.
+- An 'undeclared' variable is a variable that either doesn't exist, i.e. was never declared, or was created without a preceeding statement, e.g. `var` or `const`.
+
   ##### How would you go about checking for any of these states?
+  
+  
 ---
 #### What is a closure, and how/why would you use one?
 ---
