@@ -49,8 +49,15 @@ Xavi.bio();
 - An `undefined` variable is a variable that has been declared, but not initialized with a value.
 - An 'undeclared' variable is a variable that either doesn't exist, i.e. was never declared, or was created without a preceeding statement, e.g. `var` or `const`.
 
-  ##### How would you go about checking for any of these states?
-  
+ ###### How would you go about checking for any of these states?
+ ```
+ const a = null;
+ let b;
+ ```
+ 
+- Null: `if(a === null) {...}` or if(a) {...}`
+- Undefined:  `if(b === undefined) {...}` or if(b) {...}`
+- Undeclared: `if(c) {...}`
   
 ---
 #### What is a closure, and how/why would you use one?
