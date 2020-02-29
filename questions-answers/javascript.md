@@ -20,7 +20,24 @@ The `this` keyword points an object, which determines the calling context for fu
 #### Explain how prototypal inheritance works.
 Objects in JS can inherit methods and properties from other objects via the built-in `prototype` property, which is present on every object in a program.
 
-This is how inheritance works in the JS language, hence prototypal inheritance.
+This is how inheritance works in the JS language, hence prototypal inheritance;
+
+```
+function Player(name, age, position) {
+  this.name = name
+  this.position = position
+  this.age = age
+}
+
+const Xavi = new Player('Xavi', 'CM', 39)
+
+Player.prototype.bio = function() {
+  console.info(`${this.name} is a ${this.age} year old ${this.position}`);
+}
+
+Xavi.bio(); 
+// Xavi is a 39 year old CM
+```
 
 ---
 #### What's the difference between a variable that is: `null`, `undefined` or undeclared?
