@@ -6,10 +6,7 @@ A Promise allows a developer to run some asynchronous operation in the backgroun
 
 Technically a Promise is an object which represents the resolution of some asynchronous operation, the result can either be successful or a failure.
 
-> Do this
-  > carry-on 
-  > this finishes
-    > do that with the result of this. 
+> Do this > carry-on > this finishes > do that with the result of this. 
 
 #### Explain event delegation.
 ---
@@ -21,6 +18,10 @@ The `this` keyword points an object, which determines the calling context for fu
   
 ---
 #### Explain how prototypal inheritance works.
+Objects in JS can inherit methods and properties from other objects via the built-in `prototype` property, which is present on every object in a program.
+
+This is how inheritance works in the JS language, hence prototypal inheritance.
+
 ---
 #### What's the difference between a variable that is: `null`, `undefined` or undeclared?
   ##### How would you go about checking for any of these states?
