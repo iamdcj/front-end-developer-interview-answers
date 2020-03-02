@@ -45,7 +45,7 @@ Xavi.bio();
 
 ---
 #### What's the difference between a variable that is: `null`, `undefined` or undeclared?
-- A variable with a value of `null` is a variable thathas been initialized with a value of `null`.
+- A variable with a value of `null` is a variable that has been initialized with a value of `null`, usually to signify a lack of a true value.
 - An `undefined` variable is a variable that has been declared, but not initialized with a value.
 - An 'undeclared' variable is a variable that either doesn't exist, i.e. was never declared, or was created without a preceeding statement, e.g. `var` or `const`.
 
