@@ -1,4 +1,4 @@
-# Answers to key Front-End Development questions
+# Answers to common Front-End Interview questions
 
 ## What?
 My attempt at answering questions related to the common front-end disciplines; HTML, CSS, JavaScript, Performance, Network.
